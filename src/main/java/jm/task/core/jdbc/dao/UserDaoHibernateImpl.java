@@ -81,6 +81,7 @@ public class UserDaoHibernateImpl implements UserDao {
             if (tr != null){
                 tr.rollback();
             }
+            e.printStackTrace();
         }
     }
 
@@ -111,6 +112,7 @@ public class UserDaoHibernateImpl implements UserDao {
             if (tr != null){
                 tr.rollback();
             }
+            e.printStackTrace();
         }
     }
 }
